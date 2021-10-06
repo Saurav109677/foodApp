@@ -152,3 +152,70 @@
 .feature-block p{
     text-align: center;
 }
+
+.steps-content{
+    height: 100vh;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    margin-top: 70px;
+    justify-content: center;
+    background: #d3d3d3c2;
+}
+
+.steps-content h1{
+    font-family: 'Lato';
+    /* color: ey; */
+    letter-spacing: 2px;
+}
+.steps-block{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 435px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.food-img{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.food-img img{
+    height: 231px;
+    width: 150px;
+}
+
+.step-to-follow{
+    /* border: 1px solid; */
+    height: 80%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-left: 50px;
+}
+
+.number{
+    border: 2px solid #F63854;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 31px;
+    text-align: center;
+    margin-right: 10px;
+    color:#F63854;
+}
+
+.step{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-top: 40px; */
+}
